@@ -1,0 +1,19 @@
+section.appointment.container
+	div.row
+		.appointment_left.w-50.text-center
+			img.appointment_img(src='img/doctor-2.png')
+		.appointment_rigth_wrap.w-50
+			.appointment_rigth
+				h2.h2.appointment_h2.m-auto Make an Appointment
+				form.appointment_form
+					select(form).form
+						option Select Department
+						option Neurology
+						option Traumotology
+						option Cardiology
+						option Pulmonary
+						option Births
+					input.form(placeholder='Full Name')
+					input.form(placeholder='Phone Number')
+					input.form(type='date')
+				a.btn.appointment_btn send request

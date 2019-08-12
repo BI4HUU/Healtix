@@ -1,0 +1,56 @@
+.Slider
+	position: relative
+	width: 100%
+	padding: 0
+	margin: 0
+
+.slide
+	position: absolute
+	img
+		display block
+		width 100%
+
+.slideText
+	position absolute
+	top 0
+	left 0
+	right 0
+	color #fff
+.slideText h3
+	margin-top 20%
+	font-size 50px
+	font-weight 400
+	@media (min-width: 640px)
+		font-size 25px
+		margin-top 16%
+	@media (min-width: 768px)
+		font-size 30px
+		margin-top 16%
+	@media (min-width: 992px)
+		font-size 40px
+	@media (min-width: 1200px)
+		font-size 45px
+	
+
+.wrapButtonNumber
+	position: absolute
+	bottom: 120px
+	z-index: 8888
+	width: 100%
+	opacity: 1
+	display: flex
+	justify-content: center
+	flex-wrap: nowrap
+
+.buttonNumber
+	height: 16px
+	width: 16px
+	border-radius 50%
+	border 2px solid #eeeeee
+	margin: 8px
+	&:hover
+		background: #888
+
+.sliderButtonActive
+	background: #eeeeee
+
